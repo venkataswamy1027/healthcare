@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>HealthCare Management</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="app.js"></script>
+</head>
+<body>
+	<div ng-app="app" ng-controller="MainController"
+		ng-init="HospitalsList()">
+		<div ng-show="showHospitalsList">
+			<div class="container" style="padding: 50px 0;">
+				<div class="row">
+					<div class="col-12">
+						<h1>List of Hospitals</h1>
+						<table class="table table-striped" style="margin: 30px 0 20px;">
+							<thead>
+								<tr>
+									<th scope="col">Id</th>
+									<th scope="col">Name</th>
+									<th scope="col">description</th>
+									<th scope="col">&nbsp;</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr ng-repeat="hospital in hospitals" style="line-height: 38px;">
+									<td>{{hospital.id}}</td>
+									<td>{{hospital.name}}</td>
+									<td>{{hospital.description}}</td>
+									<td class="text-right"><a href="#"
+										ng-click="showPatients(hospital.id)" class="btn btn-primary">Show
+											Patients</a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div ng-show="showPatientsList">
+			<div class="container" style="padding: 50px 0;">
+				<div class="row">
+					<div class="col-12">
+						<h1>List of Patients</h1>
+						<table class="table table-striped" style="margin: 30px 0 20px;">
+							<thead>
+								<tr>
+									<th scope="col">Id</th>
+									<th scope="col">Name</th>
+									<th scope="col">Date of Birth</th>
+									<th scope="col">Gender</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr ng-repeat="patient in patients" style="line-height: 38px;">
+									<td>{{patient.id}}</td>
+									<td>{{patient.name}}</td>
+									<td>{{patient.dateOfBirth}}</td>
+									<td>{{patient.gender}}</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
