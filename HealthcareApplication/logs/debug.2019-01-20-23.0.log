@@ -1,0 +1,148 @@
+2019-01-20 23:00:15 - INFO - Entering into getAllHospitals method 1548043215315
+2019-01-20 23:00:17 - INFO - Exiting on getAllHospitals method 1548043217423
+2019-01-20 23:00:22 - INFO - Entering into hospitalHomePage method 1548043222290
+2019-01-20 23:00:22 - INFO - Exiting on hospitalHomePage method 1548043222323
+2019-01-20 23:00:22 - ERROR - MessageBodyWriter not found for media type=text/html, type=class org.springframework.web.servlet.ModelAndView, genericType=class org.springframework.web.servlet.ModelAndView.
+2019-01-20 23:00:41 - INFO - Application shutdown requested.
+2019-01-20 23:00:42 - INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-20 23:00:42 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-20 23:00:42 - INFO - HikariPool-1 - Shutdown initiated...
+2019-01-20 23:00:42 - INFO - HikariPool-1 - Shutdown completed.
+2019-01-20 23:00:53 - INFO - Starting HealthcareApplication on DESKTOP-3F0E4FQ with PID 9624 (E:\workspace-sts\HealthcareApplication\target\classes started by venkat swamy in E:\workspace-sts\HealthcareApplication)
+2019-01-20 23:00:53 - INFO - No active profile set, falling back to default profiles: default
+2019-01-20 23:00:54 - INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-20 23:00:54 - INFO - Finished Spring Data repository scanning in 75ms. Found 3 repository interfaces.
+2019-01-20 23:00:55 - INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ec52de0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-20 23:00:55 - INFO - Tomcat initialized with port(s): 8181 (http)
+2019-01-20 23:00:55 - INFO - Starting service [Tomcat]
+2019-01-20 23:00:55 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-20 23:00:55 - INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_192\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_192/bin/server;C:/Program Files/Java/jre1.8.0_192/bin;C:/Program Files/Java/jre1.8.0_192/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Program Files\Java\jre1.8.0_192\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\venkat swamy\AppData\Local\Microsoft\WindowsApps;;E:\softwares\sts-bundle\sts-3.9.6.RELEASE;;.]
+2019-01-20 23:00:55 - INFO - Initializing Spring embedded WebApplicationContext
+2019-01-20 23:00:55 - INFO - Root WebApplicationContext: initialization completed in 2042 ms
+2019-01-20 23:00:56 - INFO - HikariPool-1 - Starting...
+2019-01-20 23:00:56 - INFO - HikariPool-1 - Start completed.
+2019-01-20 23:00:56 - INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-20 23:00:56 - INFO - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-20 23:00:56 - INFO - HHH000206: hibernate.properties not found
+2019-01-20 23:00:56 - INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-20 23:00:57 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-20 23:01:00 - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-20 23:01:01 - INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-20 23:01:01 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-20 23:01:01 - INFO - Tomcat started on port(s): 8181 (http) with context path ''
+2019-01-20 23:01:01 - INFO - Started HealthcareApplication in 8.032 seconds (JVM running for 9.109)
+2019-01-20 23:01:30 - INFO - Entering into hospitalHomePage method 1548043290428
+2019-01-20 23:01:30 - INFO - Exiting on hospitalHomePage method 1548043290428
+2019-01-20 23:07:33 - INFO - Application shutdown requested.
+2019-01-20 23:07:33 - INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-20 23:07:33 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-20 23:07:33 - INFO - HikariPool-1 - Shutdown initiated...
+2019-01-20 23:07:33 - INFO - HikariPool-1 - Shutdown completed.
+2019-01-20 23:07:53 - INFO - Starting HealthcareApplication on DESKTOP-3F0E4FQ with PID 8592 (E:\workspace-sts\HealthcareApplication\target\classes started by venkat swamy in E:\workspace-sts\HealthcareApplication)
+2019-01-20 23:07:53 - INFO - No active profile set, falling back to default profiles: default
+2019-01-20 23:07:55 - INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-20 23:07:55 - INFO - Finished Spring Data repository scanning in 120ms. Found 3 repository interfaces.
+2019-01-20 23:07:56 - INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$11ec75ba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-20 23:07:56 - INFO - Tomcat initialized with port(s): 8181 (http)
+2019-01-20 23:07:56 - INFO - Starting service [Tomcat]
+2019-01-20 23:07:56 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-20 23:07:56 - INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_192\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_192/bin/server;C:/Program Files/Java/jre1.8.0_192/bin;C:/Program Files/Java/jre1.8.0_192/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Program Files\Java\jre1.8.0_192\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\venkat swamy\AppData\Local\Microsoft\WindowsApps;;E:\softwares\sts-bundle\sts-3.9.6.RELEASE;;.]
+2019-01-20 23:07:56 - INFO - Initializing Spring embedded WebApplicationContext
+2019-01-20 23:07:57 - INFO - Root WebApplicationContext: initialization completed in 3090 ms
+2019-01-20 23:07:57 - INFO - HikariPool-1 - Starting...
+2019-01-20 23:07:57 - INFO - HikariPool-1 - Start completed.
+2019-01-20 23:07:57 - INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-20 23:07:58 - INFO - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-20 23:07:58 - INFO - HHH000206: hibernate.properties not found
+2019-01-20 23:07:58 - INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-20 23:07:58 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-20 23:08:03 - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-20 23:08:04 - INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-20 23:08:04 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-20 23:08:07 - INFO - Tomcat started on port(s): 8181 (http) with context path ''
+2019-01-20 23:08:07 - INFO - Started HealthcareApplication in 13.857 seconds (JVM running for 15.469)
+2019-01-20 23:08:39 - INFO - Entering into getAllHospitals method 1548043719173
+2019-01-20 23:08:41 - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-20 23:08:48 - INFO - Exiting on getAllHospitals method 1548043728540
+2019-01-20 23:08:56 - INFO - Entering into getAllHospitals method 1548043736040
+2019-01-20 23:08:56 - INFO - Exiting on getAllHospitals method 1548043736063
+2019-01-20 23:08:59 - INFO - Entering into getHospitalById method 1548043739556
+2019-01-20 23:08:59 - INFO - Exiting on getHospitalById method 1548043739605
+2019-01-20 23:09:06 - INFO - Entering into hospitalHomePage method 1548043746717
+2019-01-20 23:09:06 - INFO - Exiting on hospitalHomePage method 1548043746717
+2019-01-20 23:09:08 - INFO - Entering into hospitalHomePage method 1548043748694
+2019-01-20 23:09:08 - INFO - Exiting on hospitalHomePage method 1548043748694
+2019-01-20 23:12:46 - INFO - Application shutdown requested.
+2019-01-20 23:12:46 - INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-20 23:12:46 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-20 23:12:46 - INFO - HikariPool-1 - Shutdown initiated...
+2019-01-20 23:12:46 - INFO - HikariPool-1 - Shutdown completed.
+2019-01-20 23:13:07 - INFO - Starting HealthcareApplication on DESKTOP-3F0E4FQ with PID 1280 (E:\workspace-sts\HealthcareApplication\target\classes started by venkat swamy in E:\workspace-sts\HealthcareApplication)
+2019-01-20 23:13:07 - INFO - No active profile set, falling back to default profiles: default
+2019-01-20 23:13:08 - INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-20 23:13:09 - INFO - Finished Spring Data repository scanning in 83ms. Found 3 repository interfaces.
+2019-01-20 23:13:09 - INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2994bde2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-20 23:13:10 - INFO - Tomcat initialized with port(s): 8181 (http)
+2019-01-20 23:13:10 - INFO - Starting service [Tomcat]
+2019-01-20 23:13:10 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-20 23:13:10 - INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_192\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_192/bin/server;C:/Program Files/Java/jre1.8.0_192/bin;C:/Program Files/Java/jre1.8.0_192/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Program Files\Java\jre1.8.0_192\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\venkat swamy\AppData\Local\Microsoft\WindowsApps;;E:\softwares\sts-bundle\sts-3.9.6.RELEASE;;.]
+2019-01-20 23:13:10 - INFO - Initializing Spring embedded WebApplicationContext
+2019-01-20 23:13:10 - INFO - Root WebApplicationContext: initialization completed in 2350 ms
+2019-01-20 23:13:10 - INFO - HikariPool-1 - Starting...
+2019-01-20 23:13:10 - INFO - HikariPool-1 - Start completed.
+2019-01-20 23:13:10 - INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-20 23:13:11 - INFO - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-20 23:13:11 - INFO - HHH000206: hibernate.properties not found
+2019-01-20 23:13:11 - INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-20 23:13:11 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-20 23:13:14 - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-20 23:13:15 - INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-20 23:13:15 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-20 23:13:16 - INFO - Tomcat started on port(s): 8181 (http) with context path ''
+2019-01-20 23:13:16 - INFO - Started HealthcareApplication in 9.085 seconds (JVM running for 10.258)
+2019-01-20 23:13:18 - INFO - Entering into getAllHospitals method 1548043998071
+2019-01-20 23:13:18 - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-20 23:13:18 - INFO - Exiting on getAllHospitals method 1548043998852
+2019-01-20 23:13:42 - INFO - Entering into getHospitalById method 1548044022199
+2019-01-20 23:13:42 - INFO - Exiting on getHospitalById method 1548044022211
+2019-01-20 23:14:29 - INFO - Application shutdown requested.
+2019-01-20 23:14:29 - INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-20 23:14:29 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-20 23:14:29 - INFO - HikariPool-1 - Shutdown initiated...
+2019-01-20 23:14:29 - INFO - HikariPool-1 - Shutdown completed.
+2019-01-20 23:15:01 - INFO - Starting HealthcareApplication on DESKTOP-3F0E4FQ with PID 11516 (E:\workspace-sts\HealthcareApplication\target\classes started by venkat swamy in E:\workspace-sts\HealthcareApplication)
+2019-01-20 23:15:01 - INFO - No active profile set, falling back to default profiles: default
+2019-01-20 23:15:02 - INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-20 23:15:02 - INFO - Finished Spring Data repository scanning in 76ms. Found 3 repository interfaces.
+2019-01-20 23:15:03 - INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c81fbfd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-20 23:15:03 - INFO - Tomcat initialized with port(s): 8181 (http)
+2019-01-20 23:15:03 - INFO - Starting service [Tomcat]
+2019-01-20 23:15:03 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-20 23:15:03 - INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_192\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_192/bin/server;C:/Program Files/Java/jre1.8.0_192/bin;C:/Program Files/Java/jre1.8.0_192/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Program Files\Java\jre1.8.0_192\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\venkat swamy\AppData\Local\Microsoft\WindowsApps;;E:\softwares\sts-bundle\sts-3.9.6.RELEASE;;.]
+2019-01-20 23:15:03 - INFO - Initializing Spring embedded WebApplicationContext
+2019-01-20 23:15:03 - INFO - Root WebApplicationContext: initialization completed in 2030 ms
+2019-01-20 23:15:04 - INFO - HikariPool-1 - Starting...
+2019-01-20 23:15:04 - INFO - HikariPool-1 - Start completed.
+2019-01-20 23:15:04 - INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-20 23:15:04 - INFO - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-20 23:15:04 - INFO - HHH000206: hibernate.properties not found
+2019-01-20 23:15:04 - INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-20 23:15:04 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-20 23:15:08 - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-20 23:15:09 - INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-20 23:15:09 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-20 23:15:09 - INFO - Tomcat started on port(s): 8181 (http) with context path ''
+2019-01-20 23:15:09 - INFO - Started HealthcareApplication in 8.038 seconds (JVM running for 9.06)
+2019-01-20 23:15:14 - INFO - Entering into getAllHospitals method 1548044114111
+2019-01-20 23:15:14 - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-20 23:15:14 - INFO - Exiting on getAllHospitals method 1548044114609
+2019-01-20 23:15:18 - INFO - Entering into getHospitalById method 1548044118687
+2019-01-20 23:15:18 - INFO - Exiting on getHospitalById method 1548044118696

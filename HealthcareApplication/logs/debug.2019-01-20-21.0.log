@@ -1,0 +1,72 @@
+2019-01-20 21:36:05 - INFO - Starting HealthcareApplication on DESKTOP-3F0E4FQ with PID 9876 (E:\workspace-sts\HealthcareApplication\target\classes started by venkat swamy in E:\workspace-sts\HealthcareApplication)
+2019-01-20 21:36:05 - INFO - No active profile set, falling back to default profiles: default
+2019-01-20 21:36:06 - INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-20 21:36:06 - INFO - Finished Spring Data repository scanning in 93ms. Found 3 repository interfaces.
+2019-01-20 21:36:07 - INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d4399979] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-20 21:36:07 - INFO - Tomcat initialized with port(s): 8181 (http)
+2019-01-20 21:36:07 - INFO - Starting service [Tomcat]
+2019-01-20 21:36:07 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-20 21:36:07 - INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_192\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_192/bin/server;C:/Program Files/Java/jre1.8.0_192/bin;C:/Program Files/Java/jre1.8.0_192/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Program Files\Java\jre1.8.0_192\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\venkat swamy\AppData\Local\Microsoft\WindowsApps;;E:\softwares\sts-bundle\sts-3.9.6.RELEASE;;.]
+2019-01-20 21:36:08 - INFO - Initializing Spring embedded WebApplicationContext
+2019-01-20 21:36:08 - INFO - Root WebApplicationContext: initialization completed in 2574 ms
+2019-01-20 21:36:08 - INFO - HikariPool-1 - Starting...
+2019-01-20 21:36:08 - INFO - HikariPool-1 - Start completed.
+2019-01-20 21:36:08 - INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-20 21:36:08 - INFO - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-20 21:36:08 - INFO - HHH000206: hibernate.properties not found
+2019-01-20 21:36:08 - INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-20 21:36:09 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-20 21:36:18 - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-20 21:36:20 - INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-20 21:36:20 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-20 21:36:21 - INFO - Tomcat started on port(s): 8181 (http) with context path ''
+2019-01-20 21:36:21 - INFO - Started HealthcareApplication in 16.323 seconds (JVM running for 17.5)
+2019-01-20 21:38:01 - INFO - Entering into addHospital method 1548038281143
+2019-01-20 21:38:01 - INFO - Exiting on addHospital method 1548038281527
+2019-01-20 21:39:01 - INFO - Entering into getAllHospitals method 1548038341784
+2019-01-20 21:39:02 - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-20 21:39:02 - INFO - Exiting on getAllHospitals method 1548038342176
+2019-01-20 21:40:21 - INFO - Entering into getHospitalById method 1548038421890
+2019-01-20 21:40:21 - INFO - Exiting on getHospitalById method 1548038421902
+2019-01-20 21:40:29 - INFO - Entering into getAllExaminations method 1548038429544
+2019-01-20 21:40:29 - INFO - Exiting on getAllExaminations method 1548038429554
+2019-01-20 21:46:42 - INFO - Application shutdown requested.
+2019-01-20 21:46:42 - INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-20 21:46:42 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-20 21:46:42 - INFO - HikariPool-1 - Shutdown initiated...
+2019-01-20 21:46:42 - INFO - HikariPool-1 - Shutdown completed.
+2019-01-20 21:52:08 - INFO - Starting HealthcareApplication on DESKTOP-3F0E4FQ with PID 9160 (E:\workspace-sts\HealthcareApplication\target\classes started by venkat swamy in E:\workspace-sts\HealthcareApplication)
+2019-01-20 21:52:08 - INFO - No active profile set, falling back to default profiles: default
+2019-01-20 21:52:09 - INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-20 21:52:09 - INFO - Finished Spring Data repository scanning in 76ms. Found 3 repository interfaces.
+2019-01-20 21:52:10 - INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d5021d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-20 21:52:10 - INFO - Tomcat initialized with port(s): 8181 (http)
+2019-01-20 21:52:10 - INFO - Starting service [Tomcat]
+2019-01-20 21:52:10 - INFO - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-20 21:52:10 - INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_192\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_192/bin/server;C:/Program Files/Java/jre1.8.0_192/bin;C:/Program Files/Java/jre1.8.0_192/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Program Files\Java\jre1.8.0_192\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\venkat swamy\AppData\Local\Microsoft\WindowsApps;;E:\softwares\sts-bundle\sts-3.9.6.RELEASE;;.]
+2019-01-20 21:52:11 - INFO - Initializing Spring embedded WebApplicationContext
+2019-01-20 21:52:11 - INFO - Root WebApplicationContext: initialization completed in 2111 ms
+2019-01-20 21:52:11 - INFO - HikariPool-1 - Starting...
+2019-01-20 21:52:11 - INFO - HikariPool-1 - Start completed.
+2019-01-20 21:52:11 - INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-20 21:52:11 - INFO - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-20 21:52:11 - INFO - HHH000206: hibernate.properties not found
+2019-01-20 21:52:12 - INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-20 21:52:12 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-20 21:52:15 - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-20 21:52:15 - INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-20 21:52:15 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-20 21:52:15 - INFO - Adding welcome page: class path resource [static/index.html]
+2019-01-20 21:52:16 - INFO - Tomcat started on port(s): 8181 (http) with context path ''
+2019-01-20 21:52:16 - INFO - Started HealthcareApplication in 7.653 seconds (JVM running for 8.776)
+2019-01-20 21:53:02 - INFO - Entering into addHospital method 1548039182622
+2019-01-20 21:53:04 - INFO - Exiting on addHospital method 1548039184329
+2019-01-20 21:53:12 - INFO - Entering into getAllHospitals method 1548039192153
+2019-01-20 21:53:12 - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-20 21:53:12 - INFO - Exiting on getAllHospitals method 1548039192404
+2019-01-20 21:57:50 - INFO - Entering into getAllHospitals method 1548039470001
+2019-01-20 21:57:50 - INFO - Exiting on getAllHospitals method 1548039470030

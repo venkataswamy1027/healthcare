@@ -1,0 +1,93 @@
+2019-01-21 13:07:34 - INFO - Application shutdown requested.
+2019-01-21 13:07:34 - INFO - Application shutdown requested.
+2019-01-21 13:07:34 - INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-21 13:07:34 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-21 13:07:34 - INFO - HikariPool-1 - Shutdown initiated...
+2019-01-21 13:07:34 - INFO - HikariPool-1 - Shutdown completed.
+2019-01-21 13:26:01 - INFO - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.healthcare.HospitalControllerTest], using SpringBootContextLoader
+2019-01-21 13:26:01 - INFO - Could not detect default resource locations for test class [com.healthcare.HospitalControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-01-21 13:26:01 - INFO - Could not detect default configuration classes for test class [com.healthcare.HospitalControllerTest]: HospitalControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-01-21 13:26:01 - INFO - Found @SpringBootConfiguration com.healthcare.HealthcareApplication for test class com.healthcare.HospitalControllerTest
+2019-01-21 13:26:02 - INFO - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-01-21 13:26:02 - INFO - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6c40365c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7bedc48a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@131ef10, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@55b0dcab, org.springframework.test.context.support.DirtiesContextTestExecutionListener@38afe297, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2df3b89c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@23348b5d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@70325e14, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@37ceb1df, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7c9d8e2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@20d525, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6200f9cb]
+2019-01-21 13:26:02 - INFO - Starting HospitalControllerTest on DESKTOP-3F0E4FQ with PID 4392 (started by venkat swamy in E:\workspace-sts\HealthcareApplication)
+2019-01-21 13:26:02 - INFO - No active profile set, falling back to default profiles: default
+2019-01-21 13:26:05 - INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-21 13:26:05 - INFO - Finished Spring Data repository scanning in 284ms. Found 3 repository interfaces.
+2019-01-21 13:26:06 - INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3fc1c99c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-21 13:26:07 - INFO - HikariPool-1 - Starting...
+2019-01-21 13:26:08 - INFO - HikariPool-1 - Start completed.
+2019-01-21 13:26:09 - INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-21 13:26:09 - INFO - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-21 13:26:09 - INFO - HHH000206: hibernate.properties not found
+2019-01-21 13:26:10 - INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-21 13:26:11 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-21 13:26:16 - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-21 13:26:21 - INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 13:26:22 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-21 13:26:23 - INFO - Started HospitalControllerTest in 20.755 seconds (JVM running for 23.667)
+2019-01-21 13:26:23 - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-21 13:26:24 - INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-21 13:26:24 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-21 13:26:24 - INFO - HikariPool-1 - Shutdown initiated...
+2019-01-21 13:26:24 - INFO - HikariPool-1 - Shutdown completed.
+2019-01-21 13:47:28 - INFO - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.healthcare.HospitalControllerTest], using SpringBootContextLoader
+2019-01-21 13:47:28 - INFO - Could not detect default resource locations for test class [com.healthcare.HospitalControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-01-21 13:47:28 - INFO - Could not detect default configuration classes for test class [com.healthcare.HospitalControllerTest]: HospitalControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-01-21 13:47:28 - INFO - Found @SpringBootConfiguration com.healthcare.HealthcareApplication for test class com.healthcare.HospitalControllerTest
+2019-01-21 13:47:29 - INFO - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-01-21 13:47:29 - INFO - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@55b0dcab, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@38afe297, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2df3b89c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@23348b5d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@70325e14, org.springframework.test.context.transaction.TransactionalTestExecutionListener@37ceb1df, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7c9d8e2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@20d525, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6200f9cb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2002fc1d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@69453e37, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6f4a47c7]
+2019-01-21 13:47:29 - INFO - Starting HospitalControllerTest on DESKTOP-3F0E4FQ with PID 2100 (started by venkat swamy in E:\workspace-sts\HealthcareApplication)
+2019-01-21 13:47:29 - INFO - No active profile set, falling back to default profiles: default
+2019-01-21 13:47:31 - INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-21 13:47:31 - INFO - Finished Spring Data repository scanning in 169ms. Found 3 repository interfaces.
+2019-01-21 13:47:32 - INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d537143] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-21 13:47:33 - INFO - HikariPool-1 - Starting...
+2019-01-21 13:47:34 - INFO - HikariPool-1 - Start completed.
+2019-01-21 13:47:34 - INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-21 13:47:34 - INFO - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-21 13:47:34 - INFO - HHH000206: hibernate.properties not found
+2019-01-21 13:47:34 - INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-21 13:47:35 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-21 13:47:39 - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-21 13:47:42 - INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 13:47:42 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-21 13:47:43 - INFO - Started HospitalControllerTest in 14.605 seconds (JVM running for 16.765)
+2019-01-21 13:47:44 - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-21 13:47:45 - INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-21 13:47:45 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-21 13:47:45 - INFO - HikariPool-1 - Shutdown initiated...
+2019-01-21 13:47:45 - INFO - HikariPool-1 - Shutdown completed.
+2019-01-21 13:50:10 - INFO - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.healthcare.HospitalControllerTest], using SpringBootContextLoader
+2019-01-21 13:50:10 - INFO - Could not detect default resource locations for test class [com.healthcare.HospitalControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-01-21 13:50:10 - INFO - Could not detect default configuration classes for test class [com.healthcare.HospitalControllerTest]: HospitalControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-01-21 13:50:10 - INFO - Found @SpringBootConfiguration com.healthcare.HealthcareApplication for test class com.healthcare.HospitalControllerTest
+2019-01-21 13:50:11 - INFO - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-01-21 13:50:11 - INFO - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@55b0dcab, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@38afe297, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2df3b89c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@23348b5d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@70325e14, org.springframework.test.context.transaction.TransactionalTestExecutionListener@37ceb1df, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7c9d8e2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@20d525, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6200f9cb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2002fc1d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@69453e37, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6f4a47c7]
+2019-01-21 13:50:11 - INFO - Starting HospitalControllerTest on DESKTOP-3F0E4FQ with PID 6696 (started by venkat swamy in E:\workspace-sts\HealthcareApplication)
+2019-01-21 13:50:11 - INFO - No active profile set, falling back to default profiles: default
+2019-01-21 13:50:14 - INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-21 13:50:14 - INFO - Finished Spring Data repository scanning in 120ms. Found 3 repository interfaces.
+2019-01-21 13:50:15 - INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d537143] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-21 13:50:15 - INFO - HikariPool-1 - Starting...
+2019-01-21 13:50:16 - INFO - HikariPool-1 - Start completed.
+2019-01-21 13:50:16 - INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-21 13:50:16 - INFO - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-21 13:50:16 - INFO - HHH000206: hibernate.properties not found
+2019-01-21 13:50:17 - INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-21 13:50:17 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-21 13:50:21 - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-21 13:50:24 - INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 13:50:24 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-21 13:50:25 - INFO - Started HospitalControllerTest in 14.091 seconds (JVM running for 16.131)
+2019-01-21 13:50:26 - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-21 13:50:26 - INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-21 13:50:26 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-21 13:50:27 - INFO - HikariPool-1 - Shutdown initiated...
+2019-01-21 13:50:27 - INFO - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,87 @@
+2019-01-21 16:02:38 - INFO - Entering into addHospital method 1548104558824
+2019-01-21 16:02:38 - INFO - Entering into addHospital method 1548104558830
+2019-01-21 16:02:39 - INFO - Exiting on addHospital method 1548104559477
+2019-01-21 16:04:12 - INFO - Entering into getAllHospitals method 1548104652087
+2019-01-21 16:04:12 - INFO - Entering into getAllHospitals method 1548104652089
+2019-01-21 16:04:12 - INFO - Exiting on getAllHospitals method 1548104652123
+2019-01-21 16:04:45 - INFO - Entering into updateHospital method 1548104685319
+2019-01-21 16:04:45 - INFO - Entering into updateHospital method 1548104685319
+2019-01-21 16:04:45 - INFO - Exiting on updateHospital method 1548104685553
+2019-01-21 16:06:16 - INFO - Entering into deleteHospital method 1548104776077
+2019-01-21 16:06:16 - INFO - Entering into deleteHospital method 1548104776096
+2019-01-21 16:06:16 - INFO - Exiting on deleteHospital method 1548104776207
+2019-01-21 16:08:03 - INFO - Entering into getAllPatients method 1548104883763
+2019-01-21 16:08:03 - INFO - Entering into getAllPatients method 1548104883764
+2019-01-21 16:08:03 - INFO - Exiting on getAllPatients method 1548104883797
+2019-01-21 16:09:25 - INFO - Entering into getPatientById method 1548104965413
+2019-01-21 16:09:25 - INFO - Entering into getPatientById method 1548104965413
+2019-01-21 16:09:25 - INFO - Exiting on getPatientById method 1548104965422
+2019-01-21 16:11:14 - INFO - Entering into updatePatient method 1548105074830
+2019-01-21 16:11:14 - INFO - Entering into updatePatient method 1548105074831
+2019-01-21 16:11:14 - INFO - Exiting on updatePatient method 1548105074908
+2019-01-21 16:12:56 - INFO - Entering into deletePatient method 1548105176501
+2019-01-21 16:12:56 - INFO - Entering into deletePatient method 1548105176501
+2019-01-21 16:12:56 - INFO - Exiting on deletePatient method 1548105176706
+2019-01-21 16:14:36 - INFO - Entering into getAllExaminations method 1548105276534
+2019-01-21 16:14:36 - INFO - Entering into getAllExaminations method 1548105276534
+2019-01-21 16:14:36 - INFO - Exiting on getAllExaminations method 1548105276546
+2019-01-21 16:15:53 - INFO - Entering into getExaminationById method 1548105353544
+2019-01-21 16:15:53 - INFO - Entering into getExaminationById method 1548105353544
+2019-01-21 16:15:53 - INFO - Exiting on getExaminationById method 1548105353552
+2019-01-21 16:17:05 - INFO - Entering into updateHospital method 1548105425172
+2019-01-21 16:17:05 - INFO - Entering into updateExamination method 1548105425173
+2019-01-21 16:17:05 - INFO - Exiting on updateHospital method 1548105425248
+2019-01-21 16:18:14 - INFO - Entering into deleteExamination method 1548105494473
+2019-01-21 16:18:14 - INFO - Entering into deleteExamination method 1548105494473
+2019-01-21 16:18:14 - INFO - Exiting on deleteExamination method 1548105494527
+2019-01-21 16:25:03 - INFO - Entering into getPatientById method 1548105903540
+2019-01-21 16:25:03 - INFO - Entering into getPatientById method 1548105903540
+2019-01-21 16:25:03 - INFO - Exiting on getPatientById method 1548105903577
+2019-01-21 16:25:17 - INFO - Entering into calculatePatientAge method 1548105917345
+2019-01-21 16:25:17 - INFO - Entering into calculateAge method 1548105917345
+2019-01-21 16:25:17 - INFO - Entering into getPatientById method 1548105917346
+2019-01-21 16:25:17 - INFO - Entering into convertDateToString method 1548105917490
+2019-01-21 16:25:17 - INFO - Exiting on convertDateToString method 1548105917491
+2019-01-21 16:25:17 - INFO - Exiting on calculatePatientAge method 1548105917517
+2019-01-21 16:28:26 - INFO - Application shutdown requested.
+2019-01-21 16:28:26 - INFO - Application shutdown requested.
+2019-01-21 16:28:26 - INFO - Application shutdown requested.
+2019-01-21 16:28:26 - INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-21 16:28:26 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-21 16:28:27 - INFO - HikariPool-1 - Shutdown initiated...
+2019-01-21 16:28:27 - INFO - HikariPool-1 - Shutdown completed.
+2019-01-21 16:29:21 - INFO - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.healthcare.PatientControllerTest], using SpringBootContextLoader
+2019-01-21 16:29:21 - INFO - Could not detect default resource locations for test class [com.healthcare.PatientControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-01-21 16:29:21 - INFO - Could not detect default configuration classes for test class [com.healthcare.PatientControllerTest]: PatientControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-01-21 16:29:21 - INFO - Found @SpringBootConfiguration com.healthcare.HealthcareApplication for test class com.healthcare.PatientControllerTest
+2019-01-21 16:29:21 - INFO - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-01-21 16:29:21 - INFO - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@23348b5d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70325e14, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@37ceb1df, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7c9d8e2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@20d525, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6200f9cb, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2002fc1d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@69453e37, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f4a47c7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@ae13544, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3d34d211, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7dc0f706]
+2019-01-21 16:29:22 - INFO - Starting PatientControllerTest on DESKTOP-3F0E4FQ with PID 2504 (started by venkat swamy in E:\workspace-sts\HealthcareApplication)
+2019-01-21 16:29:22 - INFO - No active profile set, falling back to default profiles: default
+2019-01-21 16:29:27 - INFO - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-21 16:29:28 - INFO - Finished Spring Data repository scanning in 1136ms. Found 3 repository interfaces.
+2019-01-21 16:29:30 - INFO - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b312e014] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-21 16:29:31 - INFO - HikariPool-1 - Starting...
+2019-01-21 16:29:31 - INFO - HikariPool-1 - Start completed.
+2019-01-21 16:29:32 - INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-21 16:29:32 - INFO - HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-21 16:29:32 - INFO - HHH000206: hibernate.properties not found
+2019-01-21 16:29:33 - INFO - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-21 16:29:34 - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-21 16:29:40 - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-21 16:29:43 - INFO - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 16:29:44 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-21 16:29:45 - INFO - Started PatientControllerTest in 22.96 seconds (JVM running for 26.278)
+2019-01-21 16:29:45 - INFO - Entering into getPatientById method 1548106185639
+2019-01-21 16:29:46 - INFO - Entering into getAllPatients method 1548106186009
+2019-01-21 16:29:46 - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-21 16:29:49 - INFO - Entering into calculateAge method 1548106189161
+2019-01-21 16:29:49 - INFO - Entering into getPatientById method 1548106189161
+2019-01-21 16:29:49 - INFO - Entering into convertDateToString method 1548106189688
+2019-01-21 16:29:49 - INFO - Exiting on convertDateToString method 1548106189689
+2019-01-21 16:29:49 - INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-21 16:29:49 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-21 16:29:49 - INFO - HikariPool-1 - Shutdown initiated...
+2019-01-21 16:29:49 - INFO - HikariPool-1 - Shutdown completed.
